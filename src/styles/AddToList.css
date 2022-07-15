@@ -1,0 +1,28 @@
+.add-to-list {
+  margin: 50px auto;
+  max-width: 400px;
+}
+.add-to-list .add-to-list-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.add-to-list .add-to-list-btn {
+  background: green;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border-radius: 4px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.add-to-list .add-to-list-btn:hover {
+  background-color: #009f00;
+}
